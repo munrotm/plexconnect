@@ -28,7 +28,7 @@ RUN apt-get install -qy python python-dev python-imaging wget unzip
 
 # Install PlexConnect (Edited Master Branch)
 RUN wget https://github.com/munrotm/PlexConnect-1/archive/master.zip
-RUN unzip PlexConnect-1-master.zip
+RUN unzip master.zip
 RUN mv PlexConnect-1-master/ /opt/plexconnect
 RUN chown nobody:users /opt/plexconnect
 
